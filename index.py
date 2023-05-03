@@ -23,7 +23,7 @@ index = GPTSimpleVectorIndex(
 )
 
 # Define a simple Streamlit app
-st.title("Ask Llama")
+st.title("Ask Anything")
 query = st.text_input("What would you like to ask?", "")
 
 if st.button("Submit"):
